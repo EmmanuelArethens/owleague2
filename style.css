@@ -1,0 +1,109 @@
+/*body * {
+   display: block;
+   min-width: 20px;
+   min-height: 20px;
+   border: solid 1px lightgreen;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    background-color: gray;
+justify-content: space-between;
+
+}
+
+header > ul {
+    display: flex;
+    flex-direction: row;
+    width:25vw;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+video {
+    width:100vw;
+    margin-bottom: -40%;
+}
+
+#SectionA {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    height: 40vw;
+    justify-content: space-around;
+}
+
+.bouton {
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    padding:10px;
+}
+
+#SectionB { 
+    display:flex;
+    background-image: url("img/bg2.png");
+    
+
+}
+
+#SectionB > * {
+    width:50vw;
+    justify-content: space-around;
+    padding: 0 5vw;
+
+    
+
+}
+
+hr {
+    width:5vw;
+    height: 5px;
+    color: orange;
+    background-color: orange;
+}
+
+
+#SectionC {
+    display:flex;
+    background-image: url("img/bg-path.jpg");
+    flex-direction: column;
+    color: white;
+
+}
+
+#SectionC h3 {
+color: orange;
+
+}
+#SectionC1 {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 33vw;
+}
+
+#graph {
+    height:30px;
+    width:1000px;
+    justify-content: space-around;
+    padding-left: 10vw
+}
+
+
+
+
